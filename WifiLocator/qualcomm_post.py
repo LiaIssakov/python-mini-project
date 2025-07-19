@@ -1,6 +1,7 @@
 import subprocess, requests, json, webbrowser
 
-API_KEY = "get your key from qualcomm"
+
+API_KEY = "get your key from qualcomm.com"
 URL = f"https://global.skyhookwireless.com/wps2/json/location?key={API_KEY}"
 
 def scan_wifi_networks():
